@@ -2,17 +2,80 @@
     margin: 0px;
     padding: 0px;
 }
-
+html {
+    background: url(ygn1.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 nav.ygn1{
   display: flex;
   text-align: center;
   justify-content: space-around;
-  padding: 2rem 5rem;
+  padding: 2rem 3rem;
 box-sizing: border-box;
-border: solid 2px;
+border: solid #808080 2px;
+color: white;
 }
 label {
-    
+    font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
 }
 nav span{
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+margin-left: 35%;
+margin-top: 10%;
+} 
+h1 span {
+    font-size: medium;
+}
+h2 {
+    color: white;
+    display: flex;
+    text-align: center;
+margin-left: 35%;
+font-size: 12px;
+margin-top: -10px;
+}
+h2 strong {
+    box-sizing: border-box;
+    background-color: white;
+    color: #808080;
+}
+form img {
+  width: 20rem;
+  margin-right: 10px;
+    padding: 12px;
+}
+footer {
+    background-color: white;
+    margin-top: 50%;
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer div p {
+    color: grey;
+    
+}
+div h4 {
+    display: flex;
+    text-align: center;
+}
+footer section p {
+    margin-top: -12px;
+}
+footer section strong {
+    color: black;
 }
