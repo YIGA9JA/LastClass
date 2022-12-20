@@ -18,7 +18,7 @@ box-sizing: border-box;
 border: solid #808080 2px;
 color: white;
 }
-label {
+nav label {
     font-size: 30px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
@@ -51,10 +51,36 @@ h2 strong {
     background-color: white;
     color: #808080;
 }
-form img {
-  width: 20rem;
-  margin-right: 10px;
+form {
     padding: 12px;
+    color: black;
+    margin-left: 35%;
+    margin-top: 22px;
+  width: 400px;
+
+}
+form input{
+    color: black;
+     background-color: #b69f9f;     
+     border-top-right-radius: 15px;    
+     width: 250px;                                                                        
+}
+form label {
+    margin: 55px;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(47, 47, 193);
+    size: 20px
+
+}
+form p {
+    padding: 5Px;
+}
+h5 {
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: oblique;
+    margin-left: 17%;margin-top: 71px;
 }
 footer {
     background-color: white;
